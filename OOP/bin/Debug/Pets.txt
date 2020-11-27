@@ -1,0 +1,10 @@
+Adrian,Barbara,Cat,Household,04/12/2011
+Bethany,Barry,Bearded Dragon,Exotic,13/03/2012
+Cedric,Beatrice,Dog,Household,25/07/2020
+Danielle,Bernard,Gecko,Exotic,30/08/2018
+Enid,Bernice,Bearded Dragon,Exotic,26/01/2011
+Frank,Bert,Gecko,Exotic,20/03/2013
+George,Bill,Bearded Dragon,Exotic,22/01/2013
+Harrison,Bobby,Dog,Household,03/03/2018
+Ian,Bridget,Cat,Household,07/03/2014
+Juliet,Bruce,Gecko,Exotic,26/05/2011
