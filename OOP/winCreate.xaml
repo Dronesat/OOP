@@ -1,0 +1,19 @@
+﻿<Window x:Class="OOP.winCreate"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OOP"
+        mc:Ignorable="d"
+        Title="winCreate" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtENumber" HorizontalAlignment="Left" Height="60" Margin="198,55,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="204"/>
+        <TextBox x:Name="txtFName" HorizontalAlignment="Left" Height="64" Margin="198,120,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="204"/>
+        <TextBox x:Name="txtSName" HorizontalAlignment="Left" Height="60" Margin="198,189,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="204"/>
+        <Button x:Name="btnCreate" Content="Create" HorizontalAlignment="Left" Height="43" Margin="198,270,0,0" VerticalAlignment="Top" Width="204" FontSize="24" Click="btnCreate_Click"/>
+        <Label Content="Enrol. No." HorizontalAlignment="Left" Height="60" Margin="40,55,0,0" VerticalAlignment="Top" Width="131" FontSize="24"/>
+        <Label Content="First Name" HorizontalAlignment="Left" Height="64" Margin="40,120,0,0" VerticalAlignment="Top" Width="131" FontSize="24"/>
+        <Label Content="Surname" HorizontalAlignment="Left" Height="60" Margin="40,189,0,0" VerticalAlignment="Top" Width="131" FontSize="24"/>
+
+    </Grid>
+</Window>

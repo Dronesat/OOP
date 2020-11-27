@@ -1,0 +1,18 @@
+﻿<Window x:Class="OOP.winLoggedIn"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OOP"
+        mc:Ignorable="d"
+        Title="winLoggedIn" Height="450" Width="800">
+    <Grid>
+        <WrapPanel x:Name="wraPets" HorizontalAlignment="Left" Height="401" Margin="199,10,0,0" VerticalAlignment="Top" Width="584"/>
+        <StackPanel HorizontalAlignment="Left" Height="401" Margin="10,10,0,0" VerticalAlignment="Top" Width="184">
+            <Button x:Name="btnAllPets" Content="Show All Pets" Click="btnAllPets_Click"/>
+            <Button x:Name="btnFilter" Content="Show Filtered Pets" Click="btnFilter_Click"/>
+            <ListBox x:Name="lsbBreeds" Height="100"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
